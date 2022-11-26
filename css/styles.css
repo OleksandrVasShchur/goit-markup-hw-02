@@ -1,0 +1,249 @@
+/* ==============Baze================= */
+body {
+  font-family: Roboto, sans-serif;
+  color: #2e2f42;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  font-size: 16px;
+  line-height: 1.5;
+  background: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+}
+
+.decor {
+  text-decoration: none;
+}
+
+.spirit {
+  display: none;
+}
+
+/* ==============/Baze================= */
+
+/* ============== Components============*/
+:root {
+  --main-color-text: #434455;
+  --primary-brand: #4d5ae5;
+  --universal-color: #2e2f42;
+  --subakcent-color: #f4f4fd;
+  --color-secondary: #ffffff;
+  --color-fon: #f4f4fd;
+  --color-decor: #e7e9fc;
+}
+
+/* ============== /Components============*/
+
+/* --------логотип і навігація--------- */
+
+.logo-web {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: var(--primary-brand);
+}
+.logo-studio {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  line-height: 1.33;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.logo-studio {
+  color: var(--universal-color);
+}
+
+.nav-menu {
+  list-style: none;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.text-style {
+  font-weight: 700;
+  color: inherit;
+}
+.menu-list:hover,
+.menu-list:focus {
+  color: var(--main-color-text);
+}
+.menu-list:active {
+  color: var(--primary-brand);
+}
+
+.text-top {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--main-color-text);
+}
+.text-top-efects,
+.text-top-efects {
+  color: var(--main-color-text);
+}
+.text-top-efects:hover,
+.text-top-efects:focus {
+  color: var(--primary-brand);
+}
+
+/* --------/логотип і навігація--------- */
+
+/* ------оформлення секції герой ----------*/
+.hero-title {
+  font-weight: 600;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  color: var(--color-secondary);
+}
+
+.buttons-style {
+  width: 170px;
+  height: 51px;
+  background: var(--primary-brand);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.19;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--color-secondary);
+
+  cursor: pointer;
+}
+.buttons-style:hover,
+.buttons-style:focus {
+  background: var(--primary-brand);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+.buttons-style:active {
+  background: #404bbf;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+
+  /* ------/оформлення секції герой ----------*/
+}
+/*  -------секція друга - основні переваги-------------*/
+
+.subhead {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.main-content {
+  color: var(--main-color-text);
+}
+
+/*  --------/секція друга - основні переваги-------------*/
+
+/* ----------cекція третя - що ми робимо-------------- */
+.subtitle {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+/* --------/cекція третя - що ми робимо-------------- */
+
+/*--------секція четверта - наша команда-----------*/
+.sub-subtitle {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+
+.text-describ {
+  color: var(--main-color-text);
+}
+
+/*--------/секція четверта - наша команда-----------*/
+
+/* -----------футер-------------- */
+
+.second-logo-color {
+  color: var(--color-fon);
+}
+.main-footer-text {
+  color: var(color-decor);
+}
+/* -----------/футер-------------- */
+
+/* ==================Portfolio======================= */
+
+/* -----------оформлення кнопок----------- */
+
+.but-style {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--color-fon);
+
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--primary-brand);
+
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #e7e9fc;
+  border-radius: 4px;
+}
+
+.but-style:hover,
+.but-style:focus {
+  background-color: var(--primary-brand);
+  color: var(--color-secondary);
+}
+.but-all {
+  width: 69px;
+  height: 48px;
+}
+.but-web-site {
+  width: 116px;
+  height: 48px;
+}
+.but-app {
+  width: 78px;
+  height: 48px;
+}
+.but-design {
+  width: 101px;
+  height: 48px;
+}
+.but-marketing {
+  width: 126px;
+  height: 48px;
+}
+
+/* -----------/оформлення кнопок----------- */
+
+/* ----------оформлення тексту до карток-------------*/
+.text-image {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.akcent-text {
+  color: var(--subakcent-color);
+}
+.subtext-image {
+  color: var(--main-color-text);
+}
+
+/* ----------/оформлення тексту до карток-------------*/
+
+/* ==================/Portfolio======================= */
