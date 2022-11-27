@@ -5,6 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio</title>
+    <!-- шрифт Raleway – 700 і шрифт Roboto – 400, 500, 700 і 900. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
@@ -12,14 +19,18 @@
       <!--шапка сторінки-->
       <nav>
         <a class="logo-studio decor" href="">
-          <span class="logo-web">Web</span> Studio</a
+          <span class="logo-web">Web</span>Studio</a
         >
         <ul class="nav-menu">
           <li>
-            <a class="menu-list decor text-style" href="./index.html"> Studio</a>
+            <a class="menu-list decor text-style" href="./index.html">
+              Studio</a
+            >
           </li>
           <li>
-            <a class="menu-list decor text-style" href="./portfolio.html">Portfolio</a>
+            <a class="menu-list decor text-style" href="./portfolio.html"
+              >Portfolio</a
+            >
           </li>
           <li>
             <a class="menu-list decor text-style" href="">Contacts</a>
@@ -43,13 +54,23 @@
       <!-- секція посилань -->
       <section>
         <!-- прихований заголовок -->
-        <h1 class="spirit">Portfolio</h1>
+        <h1 class="visually-hidden">Portfolio</h1>
         <ul class="list">
           <li><button type="button" class="but-style but-all">All</button></li>
-          <li><button type="button" class="but-style but-web-site">Web Site</button></li>
+          <li>
+            <button type="button" class="but-style but-web-site">
+              Web Site
+            </button>
+          </li>
           <li><button type="button" class="but-style but-app">App</button></li>
-          <li><button type="button" class="but-style but-design">Design</button></li>
-          <li><button type="button" class="but-style but-marketing">Marketing</button></li>
+          <li>
+            <button type="button" class="but-style but-design">Design</button>
+          </li>
+          <li>
+            <button type="button" class="but-style but-marketing">
+              Marketing
+            </button>
+          </li>
         </ul>
         <!-- список зображень -->
         <ul class="list">
@@ -70,11 +91,6 @@
               width="360"
               height="300"
             />
-            <p class="akcent-text">
-              14 Stylish and User-Friendly App Design Concepts · Task Manager
-              App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud
-              Storage App
-            </p>
             <h2 class="text-image">Cashless Payment</h2>
             <p class="subtext-image">Marketing</p>
           </li>
@@ -151,9 +167,9 @@
         </ul>
       </section>
     </main>
-    <footer>
+    <footer class="color-back-space">
       <a class="logo-studio decor second-logo-color" href="">
-        <span class="logo-web">Web</span> Studio</a
+        <span class="logo-web">Web</span>Studio</a
       >
       <p class="main-footer-text">
         Increase the flow of customers and sales for your business with digital
