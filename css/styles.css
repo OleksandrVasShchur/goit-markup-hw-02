@@ -67,6 +67,7 @@ body {
 .text-style {
   font-weight: 700;
   line-height: 1.5;
+  letter-spacing: 0.02em;
   color: inherit;
 }
 .menu-list:hover,
@@ -143,8 +144,8 @@ body {
   letter-spacing: 0.02em;
 }
 .main-content {
-  letter-spacing: 0.02;
-  font-size: 20px;
+  letter-spacing: 0.02em;
+  font-size: 16px;
   line-height: 1.5;
   color: var(--main-color-text);
 }
@@ -178,6 +179,9 @@ body {
 }
 
 .text-describ {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   color: var(--main-color-text);
 }
 
@@ -203,7 +207,7 @@ body {
 
 /* -----------оформлення кнопок----------- */
 
-.but-style {
+.filter-button {
   background-color: var(--color-fon);
 
   font-family: inherit;
@@ -218,32 +222,11 @@ body {
   cursor: pointer;
 }
 
-.but-style:hover,
-.but-style:focus {
+.filter-button:hover,
+.filter-button:focus {
   background-color: var(--primary-brand);
   color: var(--color-secondary);
 }
-.but-all {
-  width: 69px;
-  height: 48px;
-}
-.but-web-site {
-  width: 116px;
-  height: 48px;
-}
-.but-app {
-  width: 78px;
-  height: 48px;
-}
-.but-design {
-  width: 101px;
-  height: 48px;
-}
-.but-marketing {
-  width: 126px;
-  height: 48px;
-}
-
 /* -----------/оформлення кнопок----------- */
 
 /* ----------оформлення тексту до карток-------------*/
@@ -252,6 +235,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--universal-color);
 }
 
 .subtext-image {
